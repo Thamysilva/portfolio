@@ -1,0 +1,103 @@
+/* tudo */
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Barra de Navegação */
+.navbar{
+    background-color: rgb(48, 48, 48);
+    height: 50px;
+    padding: 15px;
+}
+
+
+li{
+    align-items: center;
+    margin: 50px;
+    display: inline;
+}
+
+a{
+    color: white;
+}
+
+/* topo */
+.container{
+    margin: 0%;
+    height: 860px;
+    background-color: rgb(255, 175, 215);
+    text-align: center;
+    color: rgb(48, 48, 48);
+}
+
+h1{
+
+    font-size: 40px;
+    padding: 60px 40px 5px;
+}
+
+p{
+    font-size: 25px;
+    padding: 0px 40px;
+}
+
+img{
+    width: 400px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+h2{
+    padding: 30px;
+}
+
+/* meio */
+.containerM{
+    background-color: rgb(180, 180, 180);
+    height: 400px;
+    display: flex;
+    padding: 200px ;
+}
+
+.sobremim{
+    font-size: 30px;
+    text-align: justify;
+}
+
+.img-circle{
+    border-radius: 50%;
+    text-align: justify;
+}
+
+/* trabalhos */
+
+.trabalhos{
+    height: 1000px; 
+
+}
+
+.p{
+    font-size: 20px;
+}
+
+
+
+
+/* rodape */
+
+.rodape{
+    height: 250px;
+    background-color: black;
+    color: white;
+}
+
+.form{
+    margin-left:800px;
+    padding: 50px ;
+}
+
+@media(max-width: 767px){
+    .topo{
+        display: flex;
+    }
+}
